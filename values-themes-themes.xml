@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+
+
+    <style name="Base.Theme.RecyclerView" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="android:statusBarColor">#FF5722</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <item name="android:navigationBarColor">#FF5722</item>
+        <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+
+
+    </style>
+
+    <style name="Theme.RecyclerView" parent="Base.Theme.RecyclerView" />
+
+
+</resources>
